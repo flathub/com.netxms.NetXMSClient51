@@ -25,8 +25,8 @@ modules:
       - install -t /app/share/metainfo/ -Dm644 ${FLATPAK_ID}.metainfo.xml
     sources:
       - type: file
-        url: https://netxms.org/download/releases/5.1/nxmc-5.1.1-standalone.jar
-        sha256: 33a4e2fec87c5a77e24133d4debdd47bb502c506e3cdef6d046c2f6620534ced
+        url: https://netxms.org/download/releases/5.1/nxmc-5.1.4-standalone.jar
+        sha256: 3a699993e211c34277c441b36cc1ab7569233e692947cabe62101d27178cfd3f
         dest-filename: nxmc.jar
         x-checker-data:
           type: html
@@ -40,8 +40,8 @@ modules:
         url: https://raw.githubusercontent.com/netxms/appstream/19f1c538535691d3aebfd339f8af4bb5440b1dc7/5.1/com.netxms.NetXMSClient51.desktop
         sha256: 4985e95b23a2266946bd775a3f7b5b9d0e43e25e0c2fca2b95c444bff2d2ec16
       - type: file
-        url: https://raw.githubusercontent.com/netxms/appstream/93a267f02983a87f59d8f18033a72b9485e58ec7/5.1/com.netxms.NetXMSClient51.metainfo.xml
-        sha256: 1134e2231f7a5675d38e433e1372e0ad84460b0dd4350ca226c9ee1e3d27e762
+        url: https://raw.githubusercontent.com/netxms/appstream/ef134fb95cbb14326e2a5353cbe623c38200cb63/5.1/com.netxms.NetXMSClient51.metainfo.xml
+        sha256: e3c26d2f1371dfa4c84db6c12b21a9c4a0cde7be5a5731cc578d0c0179d67456
       - type: file
         url: https://raw.githubusercontent.com/netxms/appstream/19f1c538535691d3aebfd339f8af4bb5440b1dc7/5.1/netxms-icon.svg
         sha256: 2be6744ec2dfad5dbfd76c66eb161136bb7294736ebb053dc8f901881c5409bc
